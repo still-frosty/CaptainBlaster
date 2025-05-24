@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 488597675053595423}
   - component: {fileID: 1444072340007032663}
   - component: {fileID: 5777619737656561107}
+  - component: {fileID: 424683611872869784}
   m_Layer: 0
   m_Name: meteor_0
   m_TagString: Untagged
@@ -170,3 +171,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &424683611872869784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6395674641730463794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d5c85e3ed372b799a9c80cde9039980, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidBody: {fileID: 5777619737656561107}
+  speed: -2
